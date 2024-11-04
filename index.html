@@ -3,31 +3,51 @@
 
 <head>
     <meta charset="utf-8">
-    <title> Introdução ao html </title>ssss
+    <title> Um lugar que eu gostaria de conhecer </title>
+    <link rel = "stylesheet" href ="css/style.css">
+    <link rel="icon" href="imagens/Flag_of_Japan.svg.png" type="image/png">
 </head>
 <body align = "center" background = "imagens/Cool-Blue-Aesthetic-Background.jpg" text = "White" link ="white" vlink = "#418276">
-    <h1> Álbum Busca</h1>
-    <p>
-        O objetivo do site é clicar no nome de cada album<br>
-        para acessar a lista de músicas
+    <!-- barra de menu  e titulo-->
 
-    <p> 
-        <font color = "White" >
-        <div align = "left"><a href = "pagina2.html">Blurryface</a></div>
-        <div align = "center"><a href = "pagina4.html">Clancy</a></div>
-        <div align = "right"><a href = "pagina3.html">Scaled and Icy</a></div>
-        </font>
-    </p>
-    <p>
-        <img src="imagens/download.jpeg" align="left">
-        <img src = "imagens/images (1).jpeg" align = "center">
-        <img src = "imagens/images.jpeg" align = "right">
-
-    </p>
+    <div style="display: flex; text-align: center; justify-content: space-between;">
+        <h1> Um lugar que eu gostaria de conhecer</h1>
+        <table border = "1">
+            <tr >
+                <td><a href = "index.html">Início</a></td>
+                <td><a href = "pagina2.html">Culinária</a></td>
+                <td><a href ="pagina3.html">Cultura</a></td>
+            </tr>
+        </table>
+    </div>
+    <h2>Japão</h2> 
+    <!-- imagens e parágrafos -->
+     
+    <div style="display: flex; text-align:center; justify-content:space-between;">
+        <div>
+            <p>
+                Geografia: O Japão é um arquipélago situado no leste da Ásia, composto por quatro ilhas principais:<br> Honshu, Hokkaido, Kyushu e Shikoku, além de muitas ilhas menores. O país é montanhoso,<br>
+                com cerca de 73% de sua superfície coberta por montanhas, sendo o Monte Fuji, um vulcão ativo,<br> o pico mais alto. O Japão é cercado pelo Oceano Pacífico, Mar do Japão e Mar de China Oriental,<br> o que o torna propenso a desastres naturais como terremotos e tsunamis.<br><br>
+            </p>
+            <p>
+                População: Com uma população de aproximadamente 125 milhões de habitantes,<br> o Japão é um dos países mais populosos do mundo. A maioria da população vive em áreas urbanas,<br> com grandes cidades como Tóquio, Osaka e Quioto. O Japão enfrenta desafios demográficos,<br> incluindo uma taxa de natalidade em declínio e uma população envelhecida,<br> o que impacta sua força de trabalho e economia.<br><br>
+            </p>
+            <p>
+                Clima: O clima do Japão varia de região para região,<br> mas geralmente é temperado. O país experimenta quatro estações bem definidas:<br> primavera, verão, outono e inverno. A primavera é famosa pelas flores de cerejeira (sakura),<br> enquanto o verão pode ser quente e úmido. O outono traz temperaturas amenas e folhas coloridas,<br> e o inverno é caracterizado por neve em regiões do norte, especialmente em Hokkaido.<br>
+                As chuvas são mais frequentes no verão, especialmente durante a estação das monções.<br><br>
+            </p>
+        </div>
+        <img src="imagens/mapa-japao.webp" alt="mapa do japão" style="width:290px; height:auto;">
+        <div style="display: flex; flex-direction:column; align-items:center;">
+            <img src = "imagens/Flag_of_Japan.svg.png" alt ="bandeira do japão" style = "width:280px; height:200px;">
+            <img src = "imagens/melhor-epoca-para-ir-ao-japao-10.webp" alt=" monte fuji" style = "width: 280px; height: 205px;">
+        </div>
+    </div>
+    
     <section>
         <form action = "#" method = "post">
             <label for ="name">Seu nome: </label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required><br><br>
             <label for ="email">Seu e-mail: </label>
             <input type="email" id="email" name="email" required>
             <button type="submit">Finalizar</button>

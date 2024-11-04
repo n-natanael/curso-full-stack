@@ -1,0 +1,61 @@
+body{
+    color: white;
+    background-repeat: no-repeat;
+}
+table{
+    box-align: center;
+    font-size: 1.5em;
+
+}
+/* links */
+a{
+    color: white;
+    text-decoration: none
+}
+a:visited{
+    color:aqua
+}
+a:hover{
+    color:brown
+}
+
+
+
+h1{
+    text-align: center;
+    color: orange;
+    margin-left: 50px;
+}
+h2{
+    text-align: left;
+    color: white;
+}
+p{
+    text-align:left;
+}
+/* classe, agrupar varios elementos*/
+.legenda{
+    color: rgb(255, 136, 0);
+}
+/* id */
+#imgg{
+    color: white;
+    margin-right: 50px;
+    width: 280px;
+    height:auto;
+    margin-left:25px
+}
+.lista{
+    margin-left: 100px;
+}
+
+.imagem{
+    width: 280px;
+    height: auto;
+    margin-left: 50px;
+}
+.imgs{
+    display: flex;
+    justify-content:space-around;
+    
+}
